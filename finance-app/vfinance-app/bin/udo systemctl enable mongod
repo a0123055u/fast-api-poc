@@ -1,0 +1,10 @@
+[0;1;31m●[0m mongod.service - MongoDB Database Server
+     Loaded: loaded (/lib/systemd/system/mongod.service; disabled; vendor preset: enabled)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Wed 2021-12-01 20:40:36 +08; 8s ago
+       Docs: https://docs.mongodb.org/manual
+    Process: 291188 ExecStart=/usr/bin/mongod --config /etc/mongod.conf [0;1;31m(code=exited, status=48)[0m
+   Main PID: 291188 (code=exited, status=48)
+
+Dec 01 20:40:36 thiru-ThinkPad-X1-Carbon-Gen-8 systemd[1]: Started MongoDB Database Server.
+Dec 01 20:40:36 thiru-ThinkPad-X1-Carbon-Gen-8 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmongod.service: Main process exited, code=exited, status=48/n/a[0m
+Dec 01 20:40:36 thiru-ThinkPad-X1-Carbon-Gen-8 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmongod.service: Failed with result 'exit-code'.[0m
